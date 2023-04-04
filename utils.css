@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+    --main-bg-color: brown;
+    --font1: 'Roboto', sans-serif;
+    --font2: 'Baloo Bhaina 2', cursive;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.m-y-2{
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.btn {
+    padding: 3px 11px;
+    padding-top: 3px;
+    border: none;
+    border-radius: 6px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 11px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.btn:hover {
+    color: white;
+    background: var(--main-bg-color);
+}
+
+.form-input {
+    padding: 3px 5px;
+    padding-top: 2PX;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.form-box input,textarea{
+    width: 52vw;
+    padding: 10px 6px;
+    margin: 7px 0;
+    }

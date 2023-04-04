@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    font-family: var(--font1);
+    margin-top: 25px;
+    height: 74px;
+    /*background-color: red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    height: 355px;
+    display: flex;
+    /*background-color: rgb(103, 103, 180);*/
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+}
+
+.content::after{
+    content: "";
+    background-image: url("blogimg.png");
+    position: absolute;
+    width: 100%;
+    height:inherit;
+    opacity: 0.15;
+    
+}
+
+
+
+.nav-left {
+    font-size: 20px;
+    display: flex;
+    font-weight: bold;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: all ease-in-out;
+}
+
+.nav-left ul li a:hover {
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+
+.content-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.content-right img {
+    height: 224px;
+    margin: 126px;
+    border-radius: 38px;
+    border: 2px solid black;
+
+}
+
+.content-left {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 6px;
+    word-spacing: 4px;
+    line-height: 1.2;
+    padding: 50px;
+
+}
+
+.nav-left ul {
+    display: flex;
+    margin: 0 77px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.home-articles {
+    padding-top: 18px;
+    background: rgb(230, 244, 236);
+
+}
+
+.home-article {
+    display: flex;
+    margin: 25px;
+}
+
+.home-article img {
+    width: 300px;
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 25px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color:black;
+}
+
+.home-article-content a:hover{
+ color:var(--main-bg-color);
+}
+.footer {
+    height: 50px;
+    background-color: rgb(87, 34, 34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.footer a {
+    color: white;
+}
